@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=“utf-8” />
+
+  <title>Basic HTML</title>
+  <style>
+    p {
+      color: yellow;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>This is heading 1</h1>
+  <!-- usually only one h1 per page, used by search engines -->
+  <h2>This is heading 2</h2>
+  <h3>This is heading 3</h3>
+  <h4>This is heading 4</h4>
+  <h5>This is heading 5</h5>
+  <h6>This is heading 6</h6>
+  <!--  Don’t use headings to make larger font sizes, use styles instead
+          Headings should be used to organize information.
+    -->
+
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+
+  <a href=“https://www.google.com“>This is a link</a>
+
+  <!-- <img
+      src=“https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg”
+      alt=“orange cat”
+    > -->
+  <br/>
+
+  <img src=“https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg” alt=“orange cat” width=“200”
+    height=“auto”>
+
+  <!-- Block elements -->
+  <p><strong>Wow,</strong> this is a <em>cool</em> paragraph</p>
+  <div>This is in a div.</div>
+  <div id=“paragraph-div-example”>
+    <p>Here is the first paragraph, it is a good paragraph.</p>
+    <p>This is another paragraph that is also inside of the div.</p>
+  </div>
+  <!-- horizontal rule -->
+  <hr />
+
+  <!-- lists -->
+  <ul>
+    <li>Milk</li>
+    <li>Cookies</li>
+    <li>Eggs</li>
+  </ul>
+
+  <ol>
+    <li>Bob</li>
+    <li>Jack</li>
+    <li>Mary</li>
+  </ol>
+
+  <!-- sublists -->
+  <ul>
+    <li>Thing</li>
+    <li>
+      Thing
+      <ul>
+        <li>deeper</li>
+      </ul>
+    </li>
+    <li>Thing</li>
+  </ul>
+
+  <table border-collapse="collapse">
+    <caption>Awesome Table</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Bob</td>
+        <td>555-555</td>
+        <td>bob@email.com</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>555-555</td>
+        <td>Jill@email.com</td>
+      </tr>
+      <tr>
+        <td>Harry</td>
+        <td>555-555</td>
+        <td>Harry@email.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="1">
+    <caption>This is my table caption</caption>
+    <thead>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td>three</td>
+        <td>four</td>
+      </tr>
+    </tbody>
+  </table>
+
+ </body>
+</html>
